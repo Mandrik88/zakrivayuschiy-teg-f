@@ -12,7 +12,7 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
-@keyframes pointer {
+@keyframes slideInFromLeft {
     from {
       left: 0;
     }
@@ -32,7 +32,7 @@
     }
   }
 
-  @keyframes color {
+   @keyframes fadeIn {
     from{
      transform: scaleX(0);
    }
@@ -40,7 +40,7 @@
    to {
      transform: scaleX(1);
    }
- }
+ } 
  .like-icon .sparks {
   opacity: 0;
  }
@@ -96,9 +96,9 @@
 }
 
 .like-icon.is-liked .sparks {
-  animation: opacity 0.3s ease-in 0.3s 1 alternate-reverse;
+  animation: fadeIn 0.3s ease-in 0.3s 1 alternate-reverse;
 }
-@keyframes opacity {
+@keyframes fadeIn {
   0% {
     opacity: 0;
   }
