@@ -265,6 +265,7 @@
   font-size: 14px;
   line-height: 12.6px;
   font-family: var(--accent-font);
+  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -406,7 +407,6 @@ dialog:not([open]) {
   }
   .floppy {
     max-width: 28px;
-    height: auto;
   }
   .button__save {
     margin-block-start: 50px;
